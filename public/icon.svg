@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284c7"/>
+      <stop offset="0.5" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#9333ea"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="120" y1="100" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#090d16"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" stroke="url(#bg)" stroke-width="8" opacity="0.6"/>
+  <circle cx="256" cy="256" r="160" fill="url(#bg)" opacity="0.15"/>
+  <!-- UV Lamp Rays -->
+  <path d="M256 90 L256 140 M170 115 L200 155 M342 115 L312 155 M110 180 L155 200 M402 180 L357 200" stroke="#38bdf8" stroke-width="12" stroke-linecap="round"/>
+  <!-- UV curing chamber lamp bar -->
+  <rect x="156" y="160" width="200" height="40" rx="12" fill="#0284c7" stroke="#38bdf8" stroke-width="6"/>
+  <circle cx="196" cy="180" r="8" fill="#e0f2fe"/>
+  <circle cx="256" cy="180" r="8" fill="#e0f2fe"/>
+  <circle cx="316" cy="180" r="8" fill="#e0f2fe"/>
+  <!-- Substrate sheet / conveyor belt -->
+  <rect x="100" y="310" width="312" height="44" rx="10" fill="#1e293b" stroke="#64748b" stroke-width="6"/>
+  <circle cx="140" cy="332" r="10" fill="#38bdf8"/>
+  <circle cx="216" cy="332" r="10" fill="#38bdf8"/>
+  <circle cx="296" cy="332" r="10" fill="#38bdf8"/>
+  <circle cx="372" cy="332" r="10" fill="#38bdf8"/>
+  <!-- UV Polymerized Beam -->
+  <polygon points="176,206 336,206 376,306 136,306" fill="url(#glow)" opacity="0.45"/>
+  <!-- Quality Cross-Hatch 100% checkmark -->
+  <circle cx="360" cy="380" r="54" fill="#059669" stroke="#10b981" stroke-width="6"/>
+  <path d="M336 380 L352 396 L386 362" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="450" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-weight="800" font-size="34" letter-spacing="2">SIGE-UV</text>
+</svg>

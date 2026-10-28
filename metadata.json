@@ -1,0 +1,6 @@
+{
+  "name": "SIGE-UV Impresos El Día",
+  "description": "Sistema de gestión, matriz de homologación fisicoquímica, control estadístico de curado UV y aseguramiento de calidad para Impresos El Día S.A.S.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
